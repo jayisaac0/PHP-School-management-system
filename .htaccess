@@ -1,0 +1,11 @@
+Options -indexes
+
+RewriteEngine On
+
+
+RewriteRule ^index/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) index.php?ref=$1&det=$2&student=$3&cls=$4 [NC,L]
+RewriteRule ^index/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) index.php?ref=$1&det=$2&student=$3 [NC,L]
+RewriteRule ^index/([0-9a-zA-Z]+)/([0-9a-zA-Z]+) index.php?ref=$1&student=$2 [NC,L]
+RewriteRule ^index/([0-9a-zA-Z]+) index.php?ref=$1 [NC,L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
