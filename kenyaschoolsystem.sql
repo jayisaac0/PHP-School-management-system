@@ -805,7 +805,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_name`, `user_email`, `access_level`, `responsibility`, `user_pass`, `joining_date`) VALUES
-(1, 'admin', 'admin@gmail.com', 'master_admin', '', '$2y$10$PxQRxgu.CTso0h8dHTwevekC0oX8aJklIVbXIdwKXuIVV2AQySLtS', '2017-08-13 03:06:31'),
+(1, 'admin', 'admin@gmail.com', 'master_admin', '', '$2y$10$ln8LhrHIMkHXghxStxnjGOe2GN7XEwmR/eCH3.YKD2STm3BGdU/IW', '2017-08-13 03:06:31'),
 (3, '150266', 'hale@gmail.com', 'student', '', '$2y$10$sAE0ZLpof1ZORjpcomUo/.qvuAsaqRM9iWT3iE/s5y1WXAjjqNiTi', '2017-08-13 23:36:05'),
 (4, '150267', 'finannda@gmail.com', 'student', '', '$2y$10$8Hr1U0.e/XX4xEc0f53VZ.dvWiQvvjKzMtmdFHR/mtWbACDG.xzku', '2017-08-14 01:51:05'),
 (19, '1505119750', 'amos@gmail.com', 'student', '', '$2y$10$ispKBF5fjc9L44i1oey5G.P4KKpjh1NfOUGJPOXWFh58twGvqkNiW', '2017-09-11 08:51:25'),
