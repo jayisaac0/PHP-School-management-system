@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Nov 09, 2017 at 10:13 AM
--- Server version: 10.1.22-MariaDB
--- PHP Version: 7.1.4
+-- Host: 127.0.0.1:3306
+-- Generation Time: Aug 02, 2019 at 07:07 AM
+-- Server version: 8.0.17
+-- PHP Version: 7.2.19-0ubuntu0.18.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kenyaschoolsystem`
+-- Database: `shophapo`
 --
 
 -- --------------------------------------------------------
@@ -39,8 +39,8 @@ CREATE TABLE `admisioncategory` (
 -- Dumping data for table `admisioncategory`
 --
 
-INSERT INTO `admisioncategory` (`admisioncategory_id`, `category`, `created_by`, `time_created`) VALUES
-(1, 'primary', 1, '2017-08-14 00:59:54');
+INSERT INTO `admisioncategory` (`admisioncategory_id`, `category`, `created_by`) VALUES
+(1, 'primary', 1);
 
 -- --------------------------------------------------------
 
@@ -61,10 +61,10 @@ CREATE TABLE `assignmentreplies` (
 -- Dumping data for table `assignmentreplies`
 --
 
-INSERT INTO `assignmentreplies` (`assignmentreplies_id`, `typedassignmentreply`, `assignmetntref`, `title`, `studentid`, `timeposted`) VALUES
-(2, 'Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.', '2345', 'W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.', '150269', '2017-08-16 08:16:35'),
-(3, 'Here is your submission', '1504241086', 'ABOUT THE CAFE', '150269', '2017-09-01 04:53:11'),
-(4, 'ythgtdh', 'c', 'c', '150269', '2017-09-12 06:48:06');
+INSERT INTO `assignmentreplies` (`assignmentreplies_id`, `typedassignmentreply`, `assignmetntref`, `title`, `studentid`) VALUES
+(2, 'Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.\r\n\r\nRaw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.', '2345', 'W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.', '150269'),
+(3, 'Here is your submission', '1504241086', 'ABOUT THE CAFE', '150269'),
+(4, 'ythgtdh', 'c', 'c', '150269');
 
 -- --------------------------------------------------------
 
@@ -92,14 +92,14 @@ CREATE TABLE `assignments` (
 -- Dumping data for table `assignments`
 --
 
-INSERT INTO `assignments` (`assignments_id`, `assignmetntref`, `employeeid`, `classname`, `classdetails`, `assignmenttite`, `typedassignment`, `marks`, `duedate`, `assignmentfile`, `year`, `created_by`, `time_created`) VALUES
-(1, 'rty', 150268, 'Class 1', 'blue', 'rt', '', '0', 'yt', 'IMG-20170521-WA0003.jpg', '2017', '13', '2017-08-15 19:35:16'),
-(2, '12345', 150268, 'Class 1', 'blue', 'W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.', '', '0', '12/12/2017', 'IMG-20170521-WA0009.jpg', '2017', '13', '2017-08-15 19:39:45'),
-(4, '2345', 150268, 'Class 1', 'blue', 'W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.', '1) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (2 marks)\r\n\r\n2) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (10 marks)\r\n\r\n3) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (10 marks)\r\n\r\n4) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (10 marks)\r\n\r\n5) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (10 marks)', '100 marks', '12/12/2017', 'db2a26b8-fedd-4e3e-b655-b38c640e9620.jpg', '2017', '13', '2017-08-15 20:08:05'),
-(5, 'scas', 150268, 'Class 1', 'blue', 'ascacs', 'Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.', '23', '08/14/2017 - 09', 'IMG-20170306-WA0004.jpg', '2017', '13', '2017-08-16 12:29:08'),
-(6, 'c', 150268, 'Class 1', 'blue', 'c', 'c', 'c', '08/02/2017 - 08', '', '2017', '13', '2017-08-16 12:29:44'),
-(8, '1504241086', 150268, 'Class 1', 'blue', 'ABOUT THE CAFE', '1. The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n\r\nIn addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.\r\n\r\n2. The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n\r\nIn addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.\r\n\r\n3. The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n\r\nIn addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.\r\n\r\n4. The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n\r\nIn addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.\r\n\r\nTYPED SUBMISSION ONLY', 'TOTAL MARKS (90 MARKS)', '09/01/2017 - 10/01/2017', 'IMG-20160206-WA0000.jpg', '2017', '13', '2017-09-01 04:46:47'),
-(9, '1505760151', 150268, 'Class 1', 'blue', 'wvervew', 'dfvesfverv', 'erv', '08/29/2017 - 09/19/2017', '', '2017', '13', '2017-09-18 18:42:52');
+INSERT INTO `assignments` (`assignments_id`, `assignmetntref`, `employeeid`, `classname`, `classdetails`, `assignmenttite`, `typedassignment`, `marks`, `duedate`, `assignmentfile`, `year`, `created_by`) VALUES
+(1, 'rty', 150268, 'Class 1', 'blue', 'rt', '', '0', 'yt', 'IMG-20170521-WA0003.jpg', '2017', '13'),
+(2, '12345', 150268, 'Class 1', 'blue', 'W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.', '', '0', '12/12/2017', 'IMG-20170521-WA0009.jpg', '2017', '13'),
+(4, '2345', 150268, 'Class 1', 'blue', 'W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.', '1) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (2 marks)\r\n\r\n2) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (10 marks)\r\n\r\n3) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (10 marks)\r\n\r\n4) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (10 marks)\r\n\r\n5) W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. (10 marks)', '100 marks', '12/12/2017', 'db2a26b8-fedd-4e3e-b655-b38c640e9620.jpg', '2017', '13'),
+(5, 'scas', 150268, 'Class 1', 'blue', 'ascacs', 'Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.Raw denim you probably haven\'t heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.', '23', '08/14/2017 - 09', 'IMG-20170306-WA0004.jpg', '2017', '13'),
+(6, 'c', 150268, 'Class 1', 'blue', 'c', 'c', 'c', '08/02/2017 - 08', '', '2017', '13'),
+(8, '1504241086', 150268, 'Class 1', 'blue', 'ABOUT THE CAFE', '1. The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n\r\nIn addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.\r\n\r\n2. The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n\r\nIn addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.\r\n\r\n3. The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n\r\nIn addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.\r\n\r\n4. The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\r\n\r\nIn addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.\r\n\r\nTYPED SUBMISSION ONLY', 'TOTAL MARKS (90 MARKS)', '09/01/2017 - 10/01/2017', 'IMG-20160206-WA0000.jpg', '2017', '13'),
+(9, '1505760151', 150268, 'Class 1', 'blue', 'wvervew', 'dfvesfverv', 'erv', '08/29/2017 - 09/19/2017', '', '2017', '13');
 
 -- --------------------------------------------------------
 
@@ -124,9 +124,9 @@ CREATE TABLE `books` (
 -- Dumping data for table `books`
 --
 
-INSERT INTO `books` (`books_id`, `bookref`, `booktitle`, `bookauthor`, `publishingyear`, `bookpages`, `bookcategory`, `booksubcategory`, `created_by`, `time_created`) VALUES
-(1, '123456', 'Baby sitter club', 'Anne .M. Martin', '2012', '250 pages', '1', '3', 18, '2017-09-01 22:52:18'),
-(3, '34324', 'Under shorne', 'write', '2012', '456 pages', 'Fictional', 'Black', 18, '2017-09-01 22:56:23');
+INSERT INTO `books` (`books_id`, `bookref`, `booktitle`, `bookauthor`, `publishingyear`, `bookpages`, `bookcategory`, `booksubcategory`, `created_by`) VALUES
+(1, '123456', 'Baby sitter club', 'Anne .M. Martin', '2012', '250 pages', '1', '3', 18),
+(3, '34324', 'Under shorne', 'write', '2012', '456 pages', 'Fictional', 'Black', 18);
 
 -- --------------------------------------------------------
 
@@ -145,12 +145,12 @@ CREATE TABLE `book_category` (
 -- Dumping data for table `book_category`
 --
 
-INSERT INTO `book_category` (`book_category_id`, `bookcategory`, `created_by`, `time_created`) VALUES
-(1, 'Fictional', 18, '2017-09-01 21:52:34'),
-(2, 'Science', 18, '2017-09-01 21:52:55'),
-(3, 'Scientology', 18, '2017-09-01 21:53:03'),
-(4, 'Cosmology', 18, '2017-09-01 21:53:11'),
-(5, 'Psychology', 18, '2017-09-01 21:53:23');
+INSERT INTO `book_category` (`book_category_id`, `bookcategory`, `created_by`) VALUES
+(1, 'Fictional', 18),
+(2, 'Science', 18),
+(3, 'Scientology', 18),
+(4, 'Cosmology', 18),
+(5, 'Psychology', 18);
 
 -- --------------------------------------------------------
 
@@ -169,10 +169,10 @@ CREATE TABLE `book_sub_category` (
 -- Dumping data for table `book_sub_category`
 --
 
-INSERT INTO `book_sub_category` (`book_sub_category_id`, `booksubcategory`, `created_by`, `time_created`) VALUES
-(1, 'Black', 18, '2017-09-01 21:53:33'),
-(2, 'Dome', 18, '2017-09-01 21:53:43'),
-(3, 'journal', 18, '2017-09-01 22:30:37');
+INSERT INTO `book_sub_category` (`book_sub_category_id`, `booksubcategory`, `created_by`) VALUES
+(1, 'Black', 18),
+(2, 'Dome', 18),
+(3, 'journal', 18);
 
 -- --------------------------------------------------------
 
@@ -192,8 +192,8 @@ CREATE TABLE `borrowed` (
 -- Dumping data for table `borrowed`
 --
 
-INSERT INTO `borrowed` (`borrowed_id`, `student`, `book`, `created_by`, `timeborrowed`) VALUES
-(2, '150266', '123456', '17', '2017-09-18 18:40:58');
+INSERT INTO `borrowed` (`borrowed_id`, `student`, `book`, `created_by`) VALUES
+(2, '150266', '123456', '17');
 
 -- --------------------------------------------------------
 
@@ -213,10 +213,10 @@ CREATE TABLE `classes` (
 -- Dumping data for table `classes`
 --
 
-INSERT INTO `classes` (`classes_id`, `classname`, `classdetails`, `created_by`, `time_created`) VALUES
-(1, 'Class 1', 'blue', 1, '2017-08-14 02:23:48'),
-(2, 'Class 2', 'blue', 1, '2017-08-15 00:26:32'),
-(3, 'Class 1', 'green', 1, '2017-08-15 00:40:45');
+INSERT INTO `classes` (`classes_id`, `classname`, `classdetails`, `created_by`) VALUES
+(1, 'Class 1', 'blue', 1),
+(2, 'Class 2', 'blue', 1),
+(3, 'Class 1', 'green', 1);
 
 -- --------------------------------------------------------
 
@@ -235,8 +235,8 @@ CREATE TABLE `country` (
 -- Dumping data for table `country`
 --
 
-INSERT INTO `country` (`country_id`, `country_name`, `created_by`, `time_created`) VALUES
-(2, 'Kenya', 1, '2017-08-13 12:43:18');
+INSERT INTO `country` (`country_id`, `country_name`, `created_by`) VALUES
+(2, 'Kenya', 1);
 
 -- --------------------------------------------------------
 
@@ -258,8 +258,8 @@ CREATE TABLE `employeeresponsibility` (
 -- Dumping data for table `employeeresponsibility`
 --
 
-INSERT INTO `employeeresponsibility` (`employeeresponsibility_id`, `employeeid`, `classname`, `classdetails`, `responsibility`, `created_by`, `time_created`) VALUES
-(19, 150268, 'Class 1', 'blue', 'Class head', '1', '2017-08-16 03:32:57');
+INSERT INTO `employeeresponsibility` (`employeeresponsibility_id`, `employeeid`, `classname`, `classdetails`, `responsibility`, `created_by`) VALUES
+(19, 150268, 'Class 1', 'blue', 'Class head', '1');
 
 -- --------------------------------------------------------
 
@@ -290,9 +290,9 @@ CREATE TABLE `employees` (
 -- Dumping data for table `employees`
 --
 
-INSERT INTO `employees` (`employees_id`, `employeeid`, `title`, `firstname`, `middlename`, `lastname`, `gender`, `email`, `mobilenumber`, `dateofbirth`, `nationality`, `profileimage`, `classname`, `classdetails`, `created_by`, `time_created`) VALUES
-(1, '150268', 'Mr', 'Josphat', 'Morris', 'Young', 'male', 'jayis@gmail.com', '+254770396785', '21/02/1993', 'kenyan', 'pp.jpg', 'Class 1', 'blue', 1, '2017-08-14 03:16:39'),
-(2, '150275', 'miss', 'mre', 'tim', 'tim', 'female', 'jiei@gmail.com', '234567', '12/21/12', 'kenyan', '', 'Class 1', 'blue', 1, '2017-08-14 22:42:46');
+INSERT INTO `employees` (`employees_id`, `employeeid`, `title`, `firstname`, `middlename`, `lastname`, `gender`, `email`, `mobilenumber`, `dateofbirth`, `nationality`, `profileimage`, `classname`, `classdetails`, `created_by`) VALUES
+(1, '150268', 'Mr', 'Josphat', 'Morris', 'Young', 'male', 'jayis@gmail.com', '+254770396785', '21/02/1993', 'kenyan', 'pp.jpg', 'Class 1', 'blue', 1),
+(2, '150275', 'miss', 'mre', 'tim', 'tim', 'female', 'jiei@gmail.com', '234567', '12/21/12', 'kenyan', '', 'Class 1', 'blue', 1);
 
 -- --------------------------------------------------------
 
@@ -315,9 +315,9 @@ CREATE TABLE `feeref` (
 -- Dumping data for table `feeref`
 --
 
-INSERT INTO `feeref` (`feeref_id`, `classname`, `termone`, `termtwo`, `termthree`, `totalyearfee`, `created_by`, `time_created`) VALUES
-(1, 'Class 1', '25000', '25000', '25000', '75000', '1', '2017-08-15 20:50:59'),
-(2, 'Class 2', 'x', 'c', 'x', 'c', '1', '2017-08-15 21:10:47');
+INSERT INTO `feeref` (`feeref_id`, `classname`, `termone`, `termtwo`, `termthree`, `totalyearfee`, `created_by`) VALUES
+(1, 'Class 1', '25000', '25000', '25000', '75000', '1'),
+(2, 'Class 2', 'x', 'c', 'x', 'c', '1');
 
 -- --------------------------------------------------------
 
@@ -423,8 +423,8 @@ CREATE TABLE `librarian` (
 -- Dumping data for table `librarian`
 --
 
-INSERT INTO `librarian` (`librarian_id`, `librarianid`, `title`, `firstname`, `middlename`, `lastname`, `gender`, `email`, `mobilenumber`, `dateofbirth`, `nationality`, `profileimage`, `created_by`, `time_created`) VALUES
-(1, '1504289704', 'mr', 'John', 'Doe', 'Joe', 'male', 'jone@gmai.com', '+254770396785', '21/02/1993', 'american', '', 1, '2017-09-01 18:15:55');
+INSERT INTO `librarian` (`librarian_id`, `librarianid`, `title`, `firstname`, `middlename`, `lastname`, `gender`, `email`, `mobilenumber`, `dateofbirth`, `nationality`, `profileimage`, `created_by`) VALUES
+(1, '1504289704', 'mr', 'John', 'Doe', 'Joe', 'male', 'jone@gmai.com', '+254770396785', '21/02/1993', 'american', '', 1);
 
 -- --------------------------------------------------------
 
@@ -445,10 +445,10 @@ CREATE TABLE `messageoftheday` (
 -- Dumping data for table `messageoftheday`
 --
 
-INSERT INTO `messageoftheday` (`messageoftheday_id`, `messageoftheday`, `target`, `messagestatus`, `created_by`, `time_created`) VALUES
-(1, 'About catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring service', 'student', 'active', '1', '2017-08-13 15:35:32'),
-(2, 'About catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring service', 'both', 'active', '1', '2017-08-13 15:36:55'),
-(3, 'good deary', 'both', 'active', '1', '2017-08-16 00:32:25');
+INSERT INTO `messageoftheday` (`messageoftheday_id`, `messageoftheday`, `target`, `messagestatus`, `created_by`) VALUES
+(1, 'About catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring service', 'student', 'active', '1'),
+(2, 'About catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring service', 'both', 'active', '1'),
+(3, 'good deary', 'both', 'active', '1');
 
 -- --------------------------------------------------------
 
@@ -470,9 +470,9 @@ CREATE TABLE `myreportcard` (
 -- Dumping data for table `myreportcard`
 --
 
-INSERT INTO `myreportcard` (`myreportcard_id`, `studentid`, `classname`, `term`, `year`, `myreportcards`, `time_created`) VALUES
-(5, '150269', 'Class 1', 'Term two', '2017', '&lt;section class=&quot;content invoice&quot;&gt;\r\n&lt;!-- title row --&gt;\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;div class=&quot;col-xs-12 invoice-header&quot;&gt;\r\n&lt;h1&gt;\r\n&lt;i&gt;&lt;img src=&quot;images/logo.gif&quot; style=&quot;width:100px;height:100px;&quot; /&gt;&lt;/i&gt;\r\n&lt;small class=&quot;pull-right&quot;&gt;Date: Class 1 Term two 2017&lt;/small&gt;\r\n&lt;/h1&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- info row --&gt;\r\n&lt;div class=&quot;row invoice-info&quot;&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;address&gt;\r\n&lt;strong&gt;jane anne wai&lt;/strong&gt;\r\n&lt;br&gt;Class 1&lt;br&gt;New York, CA 94107\r\n&lt;br&gt;Phone: +254770396785&lt;br&gt;Email: jayrtg@gmail.com&lt;/address&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;b&gt;Invoice #007612&lt;/b&gt;\r\n&lt;br&gt;\r\n&lt;br&gt;\r\n&lt;b&gt;Order ID:&lt;/b&gt; 4F3S8J\r\n&lt;br&gt;\r\n&lt;b&gt;Payment Due:&lt;/b&gt; 2/22/2014\r\n&lt;br&gt;\r\n&lt;b&gt;Account:&lt;/b&gt; 968-34567\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.row --&gt;\r\n\r\n&lt;!-- Table row --&gt;\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;div class=&quot;col-xs-12 table&quot;&gt;\r\n\r\n&lt;table class=&quot;table table-striped table-bordered dt-responsive nowrap&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;\r\n&lt;thead&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Subject&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Total Marks&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;/thead&gt;\r\n \r\n\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;td&gt;English&lt;/td&gt;\r\n&lt;td&gt;54&lt;/td&gt;\r\n&lt;td&gt;36&lt;/td&gt;\r\n&lt;td&gt;0&lt;/td&gt;\r\n&lt;td&gt;90&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.row --&gt;\r\n\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;!-- accepted payments column --&gt;\r\n&lt;div class=&quot;col-xs-6&quot;&gt;\r\n\r\n&lt;div class=&quot;table-responsive&quot;&gt;\r\n&lt;table class=&quot;table&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:50%&quot;&gt;Total:&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;congradulations&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;congradulations&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;&lt;button class=&quot;btn btn-default&quot; onclick=&quot;window.print();&quot;&gt;&lt;i class=&quot;fa fa-print&quot;&gt;&lt;/i&gt; Print&lt;/button&gt;&lt;/th&gt;\r\n&lt;td&gt;&lt;button class=&quot;btn btn-primary pull-right&quot; style=&quot;margin-right: 5px;&quot; onclick=&quot;window.print();&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; Generate PDF&lt;/button&gt;&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-xs-6&quot;&gt;\r\n&lt;div class=&quot;table-responsive&quot;&gt;\r\n&lt;table class=&quot;table&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:50%&quot;&gt;Total:&lt;/th&gt;\r\n&lt;td&gt;$250.30&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Average&lt;/th&gt;\r\n&lt;td&gt;$10.34&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Grade:&lt;/th&gt;\r\n&lt;td&gt;$5.80&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Position:&lt;/th&gt;\r\n&lt;td&gt;$265.24&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;/section&gt;', '2017-08-16 06:36:40'),
-(6, '150269', 'Class 1', 'Term two', '2017', '&lt;section class=&quot;content invoice&quot;&gt;\r\n&lt;!-- title row --&gt;\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;div class=&quot;col-xs-12 invoice-header&quot;&gt;\r\n&lt;h1&gt;\r\n&lt;i&gt;&lt;img src=&quot;images/logo.gif&quot; style=&quot;width:100px;height:100px;&quot; /&gt;&lt;/i&gt;\r\n&lt;small class=&quot;pull-right&quot;&gt;Date: Class 1 Term two 2017&lt;/small&gt;\r\n&lt;/h1&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- info row --&gt;\r\n&lt;div class=&quot;row invoice-info&quot;&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;address&gt;\r\n&lt;strong&gt;jane anne wai&lt;/strong&gt;\r\n&lt;br&gt;Class 1&lt;br&gt;New York, CA 94107\r\n&lt;br&gt;Phone: +254770396785&lt;br&gt;Email: jayrtg@gmail.com&lt;/address&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;b&gt;Invoice #007612&lt;/b&gt;\r\n&lt;br&gt;\r\n&lt;br&gt;\r\n&lt;b&gt;Order ID:&lt;/b&gt; 4F3S8J\r\n&lt;br&gt;\r\n&lt;b&gt;Payment Due:&lt;/b&gt; 2/22/2014\r\n&lt;br&gt;\r\n&lt;b&gt;Account:&lt;/b&gt; 968-34567\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.row --&gt;\r\n\r\n&lt;!-- Table row --&gt;\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;div class=&quot;col-xs-12 table&quot;&gt;\r\n\r\n&lt;table class=&quot;table table-striped table-bordered dt-responsive nowrap&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;\r\n&lt;thead&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Subject&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Total Marks&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;/thead&gt;\r\n \r\n\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;td&gt;English&lt;/td&gt;\r\n&lt;td&gt;54&lt;/td&gt;\r\n&lt;td&gt;36&lt;/td&gt;\r\n&lt;td&gt;0&lt;/td&gt;\r\n&lt;td&gt;90&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.row --&gt;\r\n\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;!-- accepted payments column --&gt;\r\n&lt;div class=&quot;col-xs-6&quot;&gt;\r\n\r\n&lt;div class=&quot;table-responsive&quot;&gt;\r\n&lt;table class=&quot;table&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:50%&quot;&gt;Total:&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;congradulations&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;congradulations&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;&lt;button class=&quot;btn btn-default&quot; onclick=&quot;window.print();&quot;&gt;&lt;i class=&quot;fa fa-print&quot;&gt;&lt;/i&gt; Print&lt;/button&gt;&lt;/th&gt;\r\n&lt;td&gt;&lt;button class=&quot;btn btn-primary pull-right&quot; style=&quot;margin-right: 5px;&quot; onclick=&quot;window.print();&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; Generate PDF&lt;/button&gt;&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-xs-6&quot;&gt;\r\n&lt;div class=&quot;table-responsive&quot;&gt;\r\n&lt;table class=&quot;table&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:50%&quot;&gt;Total:&lt;/th&gt;\r\n&lt;td&gt;$250.30&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Average&lt;/th&gt;\r\n&lt;td&gt;$10.34&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Grade:&lt;/th&gt;\r\n&lt;td&gt;$5.80&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Position:&lt;/th&gt;\r\n&lt;td&gt;$265.24&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;/section&gt;', '2017-08-29 15:07:32');
+INSERT INTO `myreportcard` (`myreportcard_id`, `studentid`, `classname`, `term`, `year`, `myreportcards`) VALUES
+(5, '150269', 'Class 1', 'Term two', '2017', '&lt;section class=&quot;content invoice&quot;&gt;\r\n&lt;!-- title row --&gt;\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;div class=&quot;col-xs-12 invoice-header&quot;&gt;\r\n&lt;h1&gt;\r\n&lt;i&gt;&lt;img src=&quot;images/logo.gif&quot; style=&quot;width:100px;height:100px;&quot; /&gt;&lt;/i&gt;\r\n&lt;small class=&quot;pull-right&quot;&gt;Date: Class 1 Term two 2017&lt;/small&gt;\r\n&lt;/h1&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- info row --&gt;\r\n&lt;div class=&quot;row invoice-info&quot;&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;address&gt;\r\n&lt;strong&gt;jane anne wai&lt;/strong&gt;\r\n&lt;br&gt;Class 1&lt;br&gt;New York, CA 94107\r\n&lt;br&gt;Phone: +254770396785&lt;br&gt;Email: jayrtg@gmail.com&lt;/address&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;b&gt;Invoice #007612&lt;/b&gt;\r\n&lt;br&gt;\r\n&lt;br&gt;\r\n&lt;b&gt;Order ID:&lt;/b&gt; 4F3S8J\r\n&lt;br&gt;\r\n&lt;b&gt;Payment Due:&lt;/b&gt; 2/22/2014\r\n&lt;br&gt;\r\n&lt;b&gt;Account:&lt;/b&gt; 968-34567\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.row --&gt;\r\n\r\n&lt;!-- Table row --&gt;\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;div class=&quot;col-xs-12 table&quot;&gt;\r\n\r\n&lt;table class=&quot;table table-striped table-bordered dt-responsive nowrap&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;\r\n&lt;thead&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Subject&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Total Marks&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;/thead&gt;\r\n \r\n\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;td&gt;English&lt;/td&gt;\r\n&lt;td&gt;54&lt;/td&gt;\r\n&lt;td&gt;36&lt;/td&gt;\r\n&lt;td&gt;0&lt;/td&gt;\r\n&lt;td&gt;90&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.row --&gt;\r\n\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;!-- accepted payments column --&gt;\r\n&lt;div class=&quot;col-xs-6&quot;&gt;\r\n\r\n&lt;div class=&quot;table-responsive&quot;&gt;\r\n&lt;table class=&quot;table&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:50%&quot;&gt;Total:&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;congradulations&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;congradulations&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;&lt;button class=&quot;btn btn-default&quot; onclick=&quot;window.print();&quot;&gt;&lt;i class=&quot;fa fa-print&quot;&gt;&lt;/i&gt; Print&lt;/button&gt;&lt;/th&gt;\r\n&lt;td&gt;&lt;button class=&quot;btn btn-primary pull-right&quot; style=&quot;margin-right: 5px;&quot; onclick=&quot;window.print();&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; Generate PDF&lt;/button&gt;&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-xs-6&quot;&gt;\r\n&lt;div class=&quot;table-responsive&quot;&gt;\r\n&lt;table class=&quot;table&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:50%&quot;&gt;Total:&lt;/th&gt;\r\n&lt;td&gt;$250.30&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Average&lt;/th&gt;\r\n&lt;td&gt;$10.34&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Grade:&lt;/th&gt;\r\n&lt;td&gt;$5.80&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Position:&lt;/th&gt;\r\n&lt;td&gt;$265.24&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;/section&gt;'),
+(6, '150269', 'Class 1', 'Term two', '2017', '&lt;section class=&quot;content invoice&quot;&gt;\r\n&lt;!-- title row --&gt;\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;div class=&quot;col-xs-12 invoice-header&quot;&gt;\r\n&lt;h1&gt;\r\n&lt;i&gt;&lt;img src=&quot;images/logo.gif&quot; style=&quot;width:100px;height:100px;&quot; /&gt;&lt;/i&gt;\r\n&lt;small class=&quot;pull-right&quot;&gt;Date: Class 1 Term two 2017&lt;/small&gt;\r\n&lt;/h1&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- info row --&gt;\r\n&lt;div class=&quot;row invoice-info&quot;&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;address&gt;\r\n&lt;strong&gt;jane anne wai&lt;/strong&gt;\r\n&lt;br&gt;Class 1&lt;br&gt;New York, CA 94107\r\n&lt;br&gt;Phone: +254770396785&lt;br&gt;Email: jayrtg@gmail.com&lt;/address&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-sm-4 invoice-col&quot;&gt;\r\n&lt;b&gt;Invoice #007612&lt;/b&gt;\r\n&lt;br&gt;\r\n&lt;br&gt;\r\n&lt;b&gt;Order ID:&lt;/b&gt; 4F3S8J\r\n&lt;br&gt;\r\n&lt;b&gt;Payment Due:&lt;/b&gt; 2/22/2014\r\n&lt;br&gt;\r\n&lt;b&gt;Account:&lt;/b&gt; 968-34567\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.row --&gt;\r\n\r\n&lt;!-- Table row --&gt;\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;div class=&quot;col-xs-12 table&quot;&gt;\r\n\r\n&lt;table class=&quot;table table-striped table-bordered dt-responsive nowrap&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;\r\n&lt;thead&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Subject&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Marks&lt;/th&gt;\r\n&lt;th style=&quot;width:20%;&quot;&gt;Total Marks&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;/thead&gt;\r\n \r\n\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;td&gt;English&lt;/td&gt;\r\n&lt;td&gt;54&lt;/td&gt;\r\n&lt;td&gt;36&lt;/td&gt;\r\n&lt;td&gt;0&lt;/td&gt;\r\n&lt;td&gt;90&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.row --&gt;\r\n\r\n&lt;div class=&quot;row&quot;&gt;\r\n&lt;!-- accepted payments column --&gt;\r\n&lt;div class=&quot;col-xs-6&quot;&gt;\r\n\r\n&lt;div class=&quot;table-responsive&quot;&gt;\r\n&lt;table class=&quot;table&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:50%&quot;&gt;Total:&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;congradulations&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;congradulations&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;&lt;button class=&quot;btn btn-default&quot; onclick=&quot;window.print();&quot;&gt;&lt;i class=&quot;fa fa-print&quot;&gt;&lt;/i&gt; Print&lt;/button&gt;&lt;/th&gt;\r\n&lt;td&gt;&lt;button class=&quot;btn btn-primary pull-right&quot; style=&quot;margin-right: 5px;&quot; onclick=&quot;window.print();&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt; Generate PDF&lt;/button&gt;&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;div class=&quot;col-xs-6&quot;&gt;\r\n&lt;div class=&quot;table-responsive&quot;&gt;\r\n&lt;table class=&quot;table&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th style=&quot;width:50%&quot;&gt;Total:&lt;/th&gt;\r\n&lt;td&gt;$250.30&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Average&lt;/th&gt;\r\n&lt;td&gt;$10.34&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Grade:&lt;/th&gt;\r\n&lt;td&gt;$5.80&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Position:&lt;/th&gt;\r\n&lt;td&gt;$265.24&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- /.col --&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;/section&gt;');
 
 -- --------------------------------------------------------
 
@@ -491,8 +491,8 @@ CREATE TABLE `nationality` (
 -- Dumping data for table `nationality`
 --
 
-INSERT INTO `nationality` (`nationality_id`, `nationality`, `created_by`, `time_created`) VALUES
-(1, 'kenyan', '1', '2017-08-13 14:45:43');
+INSERT INTO `nationality` (`nationality_id`, `nationality`, `created_by`) VALUES
+(1, 'kenyan', '1');
 
 -- --------------------------------------------------------
 
@@ -514,8 +514,8 @@ CREATE TABLE `notice` (
 -- Dumping data for table `notice`
 --
 
-INSERT INTO `notice` (`notice_id`, `noticetitle`, `noticedescription`, `target`, `messagestatus`, `created_by`, `time_created`) VALUES
-(1, 'fnoijkfn  fjkdf dsf', 'About catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring service', 'both', 'active', '1', '2017-08-13 16:00:23');
+INSERT INTO `notice` (`notice_id`, `noticetitle`, `noticedescription`, `target`, `messagestatus`, `created_by`) VALUES
+(1, 'fnoijkfn  fjkdf dsf', 'About catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring serviceAbout catring service', 'both', 'active', '1');
 
 -- --------------------------------------------------------
 
@@ -563,12 +563,12 @@ CREATE TABLE `primaryschoolmarks` (
 -- Dumping data for table `primaryschoolmarks`
 --
 
-INSERT INTO `primaryschoolmarks` (`primaryschoolmarks_id`, `year`, `term`, `studentid`, `classname`, `classdetails`, `mathematicsone`, `mathematicstwo`, `mathematicsthree`, `mathematicstotal`, `mathematicsremark`, `englishone`, `englishtwo`, `englishthree`, `englishtotal`, `englishreview`, `kiswahilione`, `kiswahilitwo`, `kiswahilithree`, `kiswahilitotal`, `kiswahiliremark`, `scienceone`, `sciencetwo`, `sciencethree`, `sciencetotal`, `scienceremark`, `sstudiesone`, `sstudiestwo`, `sstudiesthree`, `sstudiestotal`, `sstudiesremark`, `created_by`, `time_posted`) VALUES
-(19, '2017', 'Term one', '150269', 'Class 1', 'blue', '45', '45', '0', '90', 'Very good', '45', '35', '0', '80', 'Very good', '50', '30', '0', '80', 'Very good', '90', '0', '0', '90', 'Very good', '89', '0', '0', '89', 'Very good', '13', '2017-09-02 01:57:08'),
-(20, '2017', 'Term two', '150267', 'class 1', 'blue', '34', '0', '0', '56', 'yt  utyu', '43', '33', '0', '54', 'ty uut y', '34', '23', '0', '56', 'ut uty', '34', '0', '0', '67', 'ty yut y', '54', '0', '0', '56', 't yt tuty', '13', '2017-09-08 06:37:05'),
-(21, '2017', 'Term two', '150269', 'Class 1', 'blue', '21', '32', '43', '67', 'n cv c', '34', '23', '12', '56', 'c b', '34', '54', '56', '65', 'cv b', '23', '34', '45', '67', 'cb', '35', '54', '65', '56', 'c b', '13', '2017-09-08 08:02:49'),
-(22, '2017', 'Term two', '1505119750', 'Class 1', 'blue', '98', '78', '67', '98', 'yas  lash', '87', '87', '87', '87', 'kasy lw ld', '87', '87', '87', '76', 'wue wuer l', '67', '80', '87', '87', 'wueyf kwye', '87', '87', '98', '67', 'weu iweu ywue', '13', '2017-09-11 08:58:29'),
-(23, '2017', 'Term two', '1505119750', 'Class 1', 'blue', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '13', '2017-09-11 09:05:21');
+INSERT INTO `primaryschoolmarks` (`primaryschoolmarks_id`, `year`, `term`, `studentid`, `classname`, `classdetails`, `mathematicsone`, `mathematicstwo`, `mathematicsthree`, `mathematicstotal`, `mathematicsremark`, `englishone`, `englishtwo`, `englishthree`, `englishtotal`, `englishreview`, `kiswahilione`, `kiswahilitwo`, `kiswahilithree`, `kiswahilitotal`, `kiswahiliremark`, `scienceone`, `sciencetwo`, `sciencethree`, `sciencetotal`, `scienceremark`, `sstudiesone`, `sstudiestwo`, `sstudiesthree`, `sstudiestotal`, `sstudiesremark`, `created_by`) VALUES
+(19, '2017', 'Term one', '150269', 'Class 1', 'blue', '45', '45', '0', '90', 'Very good', '45', '35', '0', '80', 'Very good', '50', '30', '0', '80', 'Very good', '90', '0', '0', '90', 'Very good', '89', '0', '0', '89', 'Very good', '13'),
+(20, '2017', 'Term two', '150267', 'class 1', 'blue', '34', '0', '0', '56', 'yt  utyu', '43', '33', '0', '54', 'ty uut y', '34', '23', '0', '56', 'ut uty', '34', '0', '0', '67', 'ty yut y', '54', '0', '0', '56', 't yt tuty', '13'),
+(21, '2017', 'Term two', '150269', 'Class 1', 'blue', '21', '32', '43', '67', 'n cv c', '34', '23', '12', '56', 'c b', '34', '54', '56', '65', 'cv b', '23', '34', '45', '67', 'cb', '35', '54', '65', '56', 'c b', '13'),
+(22, '2017', 'Term two', '1505119750', 'Class 1', 'blue', '98', '78', '67', '98', 'yas  lash', '87', '87', '87', '87', 'kasy lw ld', '87', '87', '87', '76', 'wue wuer l', '67', '80', '87', '87', 'wueyf kwye', '87', '87', '98', '67', 'weu iweu ywue', '13'),
+(23, '2017', 'Term two', '1505119750', 'Class 1', 'blue', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '13');
 
 -- --------------------------------------------------------
 
@@ -587,8 +587,8 @@ CREATE TABLE `schoolsession` (
 -- Dumping data for table `schoolsession`
 --
 
-INSERT INTO `schoolsession` (`schoolsession_id`, `term`, `year`, `time_created`) VALUES
-(3, 'Term two', '2017', '2017-09-08 07:28:34');
+INSERT INTO `schoolsession` (`schoolsession_id`, `term`, `year`) VALUES
+(3, 'Term two', '2017');
 
 -- --------------------------------------------------------
 
@@ -608,8 +608,8 @@ CREATE TABLE `state` (
 -- Dumping data for table `state`
 --
 
-INSERT INTO `state` (`state_id`, `country_name`, `state`, `created_by`, `timecreated`) VALUES
-(1, 'Kenya', 'Nairobi', '1', '2017-08-13 14:05:12');
+INSERT INTO `state` (`state_id`, `country_name`, `state`, `created_by`) VALUES
+(1, 'Kenya', 'Nairobi', '1');
 
 -- --------------------------------------------------------
 
@@ -635,14 +635,14 @@ CREATE TABLE `studentfeepayment` (
 -- Dumping data for table `studentfeepayment`
 --
 
-INSERT INTO `studentfeepayment` (`studentfeepayment_id`, `studentid`, `classname`, `term`, `year`, `amountpaid`, `receiptnumber`, `bank`, `paymentmethod`, `created_by`, `timeposted`) VALUES
-(7, 150269, 'Class 1', 'Term one', '2017', 12000, 'esr45ty', 'equity', 'Check', 1, '2017-09-07 23:41:49'),
-(8, 150269, 'Class 1', 'Term one', '2017', 12000, 'AS57HIH78', 'Backlays', 'Check', 1, '2017-09-07 23:43:55'),
-(9, 150269, 'Class 1', 'Term one', '2017', 9000, 'LDMT8OIJT', 'Equity', 'Check', 1, '2017-09-08 05:29:45'),
-(10, 150269, 'Class 1', 'Term two', '2017', 500, 'LDMT8OIJT', 'Backlays', 'Check', 1, '2017-09-08 05:57:17'),
-(11, 150269, 'Class 1', 'Term two', '2017', 3576, 'JSKK78JKD', 'Equity', 'Check', 1, '2017-09-08 06:04:17'),
-(12, 150269, 'Class 1', 'Term two', '2017', 4566, 'LDMT8OIJT', 'Equity', 'Check', 1, '2017-09-08 09:06:20'),
-(13, 150267, 'class 1', 'Term two', '2017', 3265, 'LDMT8OIJT', 'Equity', 'Check', 1, '2017-10-06 09:34:29');
+INSERT INTO `studentfeepayment` (`studentfeepayment_id`, `studentid`, `classname`, `term`, `year`, `amountpaid`, `receiptnumber`, `bank`, `paymentmethod`, `created_by`) VALUES
+(7, 150269, 'Class 1', 'Term one', '2017', 12000, 'esr45ty', 'equity', 'Check', 1),
+(8, 150269, 'Class 1', 'Term one', '2017', 12000, 'AS57HIH78', 'Backlays', 'Check', 1),
+(9, 150269, 'Class 1', 'Term one', '2017', 9000, 'LDMT8OIJT', 'Equity', 'Check', 1),
+(10, 150269, 'Class 1', 'Term two', '2017', 500, 'LDMT8OIJT', 'Backlays', 'Check', 1),
+(11, 150269, 'Class 1', 'Term two', '2017', 3576, 'JSKK78JKD', 'Equity', 'Check', 1),
+(12, 150269, 'Class 1', 'Term two', '2017', 4566, 'LDMT8OIJT', 'Equity', 'Check', 1),
+(13, 150267, 'class 1', 'Term two', '2017', 3265, 'LDMT8OIJT', 'Equity', 'Check', 1);
 
 -- --------------------------------------------------------
 
@@ -673,11 +673,11 @@ CREATE TABLE `students` (
 -- Dumping data for table `students`
 --
 
-INSERT INTO `students` (`students_id`, `studentid`, `studenttitle`, `firstname`, `middlename`, `lastname`, `gender`, `studentemail`, `mobilenumber`, `dateofbirth`, `nationality`, `class`, `classdetails`, `level`, `created_by`, `time_created`) VALUES
-(7, '150266', 'mr', 'James', 'Morris', 'Heirley', 'male', 'hale@gmail.com', '0721000000', '21/02/1993', 'american', 'class eight', 'blue', '', 1, '2017-08-13 23:36:05'),
-(9, '150267', 'mr', 'sad', 'asd', 'asd', 'male', 'jayisaac0@gmail.com', '+254770396785', '346', 'ad', 'class 1', 'blue', 'primary', 1, '2017-08-14 02:06:39'),
-(10, '150269', 'miss', 'jane', 'anne', 'wai', 'female', 'jayrtg@gmail.com', '+254770396785', '21/02/1993', 'kenyan', 'Class 1', 'blue', 'primary', 1, '2017-08-14 08:03:48'),
-(11, '1505119750', 'mr', 'Amos', 'Muriuki', 'maina', 'male', 'amos@gmail.com', '9776894665', '12/12/12', 'kenyan', 'Class 1', 'blue', 'primary', 1, '2017-09-11 08:51:25');
+INSERT INTO `students` (`students_id`, `studentid`, `studenttitle`, `firstname`, `middlename`, `lastname`, `gender`, `studentemail`, `mobilenumber`, `dateofbirth`, `nationality`, `class`, `classdetails`, `level`, `created_by`) VALUES
+(7, '150266', 'mr', 'James', 'Morris', 'Heirley', 'male', 'hale@gmail.com', '0721000000', '21/02/1993', 'american', 'class eight', 'blue', '', 1),
+(9, '150267', 'mr', 'sad', 'asd', 'asd', 'male', 'jayisaac0@gmail.com', '+254770396785', '346', 'ad', 'class 1', 'blue', 'primary', 1),
+(10, '150269', 'miss', 'jane', 'anne', 'wai', 'female', 'jayrtg@gmail.com', '+254770396785', '21/02/1993', 'kenyan', 'Class 1', 'blue', 'primary', 1),
+(11, '1505119750', 'mr', 'Amos', 'Muriuki', 'maina', 'male', 'amos@gmail.com', '9776894665', '12/12/12', 'kenyan', 'Class 1', 'blue', 'primary', 1);
 
 -- --------------------------------------------------------
 
@@ -697,18 +697,18 @@ CREATE TABLE `subjectallocation` (
 -- Dumping data for table `subjectallocation`
 --
 
-INSERT INTO `subjectallocation` (`subjectallocation_id`, `studentid`, `subject`, `created_by`, `time_created`) VALUES
-(2, '150266', 'Mathematics', '1', '2017-08-14 00:17:46'),
-(9, '150266', 'English', '1', '2017-08-14 00:33:29'),
-(11, '150266', 'Kiswahili', '1', '2017-08-14 00:37:58'),
-(13, '150266', 'Science', '1', '2017-08-14 05:14:13'),
-(14, '150266', 'social studies', '1', '2017-08-14 05:14:22'),
-(15, '150269', 'Mathematics', '1', '2017-08-14 08:21:23'),
-(16, '150269', 'English', '1', '2017-08-14 08:21:31'),
-(17, '150269', 'Kiswahili', '1', '2017-08-14 08:21:35'),
-(18, '150269', 'Science', '1', '2017-08-14 08:21:38'),
-(19, '150269', 'social studies', '1', '2017-08-14 08:21:43'),
-(21, '150267', 'English', '1', '2017-08-14 21:43:26');
+INSERT INTO `subjectallocation` (`subjectallocation_id`, `studentid`, `subject`, `created_by`) VALUES
+(2, '150266', 'Mathematics', '1'),
+(9, '150266', 'English', '1'),
+(11, '150266', 'Kiswahili', '1'),
+(13, '150266', 'Science', '1'),
+(14, '150266', 'social studies', '1'),
+(15, '150269', 'Mathematics', '1'),
+(16, '150269', 'English', '1'),
+(17, '150269', 'Kiswahili', '1'),
+(18, '150269', 'Science', '1'),
+(19, '150269', 'social studies', '1'),
+(21, '150267', 'English', '1');
 
 -- --------------------------------------------------------
 
@@ -729,12 +729,12 @@ CREATE TABLE `subjects` (
 -- Dumping data for table `subjects`
 --
 
-INSERT INTO `subjects` (`subjects_id`, `subject`, `subjectcode`, `subjectaliase`, `created_by`, `time_created`) VALUES
-(1, 'Mathematics', '12345', 'math', 1, '2017-08-13 16:28:06'),
-(2, 'English', '12345', 'language', 1, '2017-08-13 16:36:08'),
-(3, 'Kiswahili', '12345', 'lugha', 1, '2017-08-13 16:37:16'),
-(4, 'Science', '1211', 'science', 1, '2017-08-14 05:10:30'),
-(5, 'social studies', '2345', 'social stu', 1, '2017-08-14 05:11:03');
+INSERT INTO `subjects` (`subjects_id`, `subject`, `subjectcode`, `subjectaliase`, `created_by`) VALUES
+(1, 'Mathematics', '12345', 'math', 1),
+(2, 'English', '12345', 'language', 1),
+(3, 'Kiswahili', '12345', 'lugha', 1),
+(4, 'Science', '1211', 'science', 1),
+(5, 'social studies', '2345', 'social stu', 1);
 
 -- --------------------------------------------------------
 
@@ -756,11 +756,11 @@ CREATE TABLE `teachingsubjectallocation` (
 -- Dumping data for table `teachingsubjectallocation`
 --
 
-INSERT INTO `teachingsubjectallocation` (`teachingsubjectallocation_id`, `classname`, `employeeid`, `classdetails`, `subjectname`, `created_by`, `time_created`) VALUES
-(1, 'Class 1', '150268', 'blue', 'English', '1', '2017-08-14 04:44:01'),
-(2, 'Class 1', '150275', 'blue', 'Mathematics', '1', '2017-08-14 22:49:59'),
-(3, 'Class 1', '150275', 'blue', 'Science', '1', '2017-08-14 22:50:09'),
-(4, 'Class 2', '150275', 'blue', 'Mathematics', '1', '2017-08-15 00:27:02');
+INSERT INTO `teachingsubjectallocation` (`teachingsubjectallocation_id`, `classname`, `employeeid`, `classdetails`, `subjectname`, `created_by`) VALUES
+(1, 'Class 1', '150268', 'blue', 'English', '1'),
+(2, 'Class 1', '150275', 'blue', 'Mathematics', '1'),
+(3, 'Class 1', '150275', 'blue', 'Science', '1'),
+(4, 'Class 2', '150275', 'blue', 'Mathematics', '1');
 
 -- --------------------------------------------------------
 
@@ -781,8 +781,8 @@ CREATE TABLE `town` (
 -- Dumping data for table `town`
 --
 
-INSERT INTO `town` (`town_id`, `country_name`, `state`, `town`, `created_by`, `timecreated`) VALUES
-(1, 'Kenya', 'Nairobi', 'Nairobi', 1, '2017-08-13 14:25:14');
+INSERT INTO `town` (`town_id`, `country_name`, `state`, `town`, `created_by`) VALUES
+(1, 'Kenya', 'Nairobi', 'Nairobi', 1);
 
 -- --------------------------------------------------------
 
@@ -804,15 +804,15 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`user_id`, `user_name`, `user_email`, `access_level`, `responsibility`, `user_pass`, `joining_date`) VALUES
-(1, 'admin', 'admin@gmail.com', 'master_admin', '', '$2y$10$ln8LhrHIMkHXghxStxnjGOe2GN7XEwmR/eCH3.YKD2STm3BGdU/IW', '2017-08-13 03:06:31'),
-(3, '150266', 'hale@gmail.com', 'student', '', '$2y$10$sAE0ZLpof1ZORjpcomUo/.qvuAsaqRM9iWT3iE/s5y1WXAjjqNiTi', '2017-08-13 23:36:05'),
-(4, '150267', 'finannda@gmail.com', 'student', '', '$2y$10$8Hr1U0.e/XX4xEc0f53VZ.dvWiQvvjKzMtmdFHR/mtWbACDG.xzku', '2017-08-14 01:51:05'),
-(19, '1505119750', 'amos@gmail.com', 'student', '', '$2y$10$ispKBF5fjc9L44i1oey5G.P4KKpjh1NfOUGJPOXWFh58twGvqkNiW', '2017-09-11 08:51:25'),
-(17, '1504288820', 'jone@gmai.com', 'library', '', '$2y$10$m07Up0JJf9ryJWiSPx11weWZYFteWg09IXCFpyk03BbKdBHoMh..q', '2017-09-01 18:01:22'),
-(13, '150268', 'jayis@gmail.com', 'employee', '', '$2y$10$Dftc9Qx7I4VbdfNpu0cLQuTYkA55E6jXFwma2Chd5NOywxLDvVj.O', '2017-08-14 03:15:29'),
-(15, '150269', 'jayrtg@gmail.com', 'student', '', '$2y$10$1KbocEsTsatIW/TGUkaFo.9w8zlfSjalRoM1S0kx3P2VjHlEZ1.1K', '2017-08-14 08:03:48'),
-(18, '1504289704', 'jone@gmai.com', 'library', '', '$2y$10$EhF7uaqzPdIt64ge9vmhMurNgWwQYJsTQ/uaMY.Xx7yoJTA0AZ1SO', '2017-09-01 18:15:55');
+INSERT INTO `users` (`user_id`, `user_name`, `user_email`, `access_level`, `responsibility`, `user_pass`) VALUES
+(1, 'admin', 'admin@gmail.com', 'master_admin', '', '$2y$10$zWvT5Dg3jnwmOqbtuLsgPuUPyaAxdfgS/32yn1qIuLlZlS9bJpbSe'),
+(3, '150266', 'hale@gmail.com', 'student', '', '$2y$10$sAE0ZLpof1ZORjpcomUo/.qvuAsaqRM9iWT3iE/s5y1WXAjjqNiTi'),
+(4, '150267', 'finannda@gmail.com', 'student', '', '$2y$10$8Hr1U0.e/XX4xEc0f53VZ.dvWiQvvjKzMtmdFHR/mtWbACDG.xzku'),
+(19, '1505119750', 'amos@gmail.com', 'student', '', '$2y$10$ispKBF5fjc9L44i1oey5G.P4KKpjh1NfOUGJPOXWFh58twGvqkNiW'),
+(17, '1504288820', 'jone@gmai.com', 'library', '', '$2y$10$m07Up0JJf9ryJWiSPx11weWZYFteWg09IXCFpyk03BbKdBHoMh..q'),
+(13, '150268', 'jayis@gmail.com', 'employee', '', '$2y$10$Dftc9Qx7I4VbdfNpu0cLQuTYkA55E6jXFwma2Chd5NOywxLDvVj.O'),
+(15, '150269', 'jayrtg@gmail.com', 'student', '', '$2y$10$1KbocEsTsatIW/TGUkaFo.9w8zlfSjalRoM1S0kx3P2VjHlEZ1.1K'),
+(18, '1504289704', 'jone@gmai.com', 'library', '', '$2y$10$EhF7uaqzPdIt64ge9vmhMurNgWwQYJsTQ/uaMY.Xx7yoJTA0AZ1SO');
 
 --
 -- Indexes for dumped tables
@@ -995,141 +995,169 @@ ALTER TABLE `users`
 --
 ALTER TABLE `admisioncategory`
   MODIFY `admisioncategory_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `assignmentreplies`
 --
 ALTER TABLE `assignmentreplies`
   MODIFY `assignmentreplies_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
 --
 -- AUTO_INCREMENT for table `assignments`
 --
 ALTER TABLE `assignments`
   MODIFY `assignments_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
 --
 -- AUTO_INCREMENT for table `books`
 --
 ALTER TABLE `books`
   MODIFY `books_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT for table `book_category`
 --
 ALTER TABLE `book_category`
   MODIFY `book_category_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT for table `book_sub_category`
 --
 ALTER TABLE `book_sub_category`
   MODIFY `book_sub_category_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT for table `borrowed`
 --
 ALTER TABLE `borrowed`
   MODIFY `borrowed_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `classes`
 --
 ALTER TABLE `classes`
   MODIFY `classes_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT for table `country`
 --
 ALTER TABLE `country`
   MODIFY `country_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `employeeresponsibility`
 --
 ALTER TABLE `employeeresponsibility`
   MODIFY `employeeresponsibility_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+
 --
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
   MODIFY `employees_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `feeref`
 --
 ALTER TABLE `feeref`
   MODIFY `feeref_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `highschoolmarks`
 --
 ALTER TABLE `highschoolmarks`
   MODIFY `highschoolmarks_id` int(225) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `librarian`
 --
 ALTER TABLE `librarian`
   MODIFY `librarian_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `messageoftheday`
 --
 ALTER TABLE `messageoftheday`
   MODIFY `messageoftheday_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT for table `myreportcard`
 --
 ALTER TABLE `myreportcard`
   MODIFY `myreportcard_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
 -- AUTO_INCREMENT for table `nationality`
 --
 ALTER TABLE `nationality`
   MODIFY `nationality_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `notice`
 --
 ALTER TABLE `notice`
   MODIFY `notice_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `primaryschoolmarks`
 --
 ALTER TABLE `primaryschoolmarks`
   MODIFY `primaryschoolmarks_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+
 --
 -- AUTO_INCREMENT for table `schoolsession`
 --
 ALTER TABLE `schoolsession`
   MODIFY `schoolsession_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT for table `state`
 --
 ALTER TABLE `state`
   MODIFY `state_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `studentfeepayment`
 --
 ALTER TABLE `studentfeepayment`
   MODIFY `studentfeepayment_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
 --
 -- AUTO_INCREMENT for table `students`
 --
 ALTER TABLE `students`
   MODIFY `students_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
 --
 -- AUTO_INCREMENT for table `subjectallocation`
 --
 ALTER TABLE `subjectallocation`
   MODIFY `subjectallocation_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+
 --
 -- AUTO_INCREMENT for table `subjects`
 --
 ALTER TABLE `subjects`
   MODIFY `subjects_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT for table `teachingsubjectallocation`
 --
 ALTER TABLE `teachingsubjectallocation`
   MODIFY `teachingsubjectallocation_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
 --
 -- AUTO_INCREMENT for table `town`
 --
 ALTER TABLE `town`
   MODIFY `town_id` int(225) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;COMMIT;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
