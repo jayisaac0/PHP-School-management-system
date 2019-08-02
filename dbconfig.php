@@ -1,10 +1,10 @@
 <?php
 class Database
 {   
-    private $host = "localhost";
-    private $db_name = "Kenyaschoolsystem";
-    private $username = "root";
-    private $password = "";
+    private $host = "db4free.net";
+    private $db_name = "shophapo";
+    private $username = "shophapo";
+    private $password = "Jayluv3139";
     public $conn;
      
     public function dbConnection()
